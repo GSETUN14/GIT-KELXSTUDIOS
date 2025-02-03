@@ -29,7 +29,7 @@ public class MenuGeneral {
         int itemId = item.getItemId();
 
         if (itemId == R.id.nameuser) {
-            Toast.makeText(context, "User information", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "User information 1", Toast.LENGTH_SHORT).show();
         } else if (itemId == R.id.favorites) {
             Toast.makeText(context, "Status | Coming soon...", Toast.LENGTH_SHORT).show();
         } else if (itemId == R.id.products) {
