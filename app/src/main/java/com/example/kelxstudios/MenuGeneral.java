@@ -10,6 +10,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 import android.view.MenuItem;
 
+
 public class MenuGeneral {
 
     private final Context context;
