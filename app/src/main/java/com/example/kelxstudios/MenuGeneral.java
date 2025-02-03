@@ -30,7 +30,7 @@ public class MenuGeneral {
         if (itemId == R.id.nameuser) {
             Toast.makeText(context, "User information", Toast.LENGTH_SHORT).show();
         } else if (itemId == R.id.favorites) {
-            Toast.makeText(context, "Working | Coming soon...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Status | Coming soon...", Toast.LENGTH_SHORT).show();
         } else if (itemId == R.id.products) {
             Toast.makeText(context, "Products", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(context, MenuActivity.class);
