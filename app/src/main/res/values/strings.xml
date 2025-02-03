@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kelxstudios</string>
+    <string name="favorites">Favorites</string>
+    <string name="account">Account</string>
+    <string name="orders">Orders</string>
+    <string name="logout">Logout</string>
+</resources>

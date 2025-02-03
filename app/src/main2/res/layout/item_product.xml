@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="250dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/margenes_circulares_product"
+    android:backgroundTint="#D8FFFFFF">
+
+    <!-- Imagen del producto -->
+
+    <!-- Nombre del producto -->
+
+    <!-- Precio del producto -->
+
+    <!-- Icono de favorito -->
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:text="Product Name"
+        android:textColor="#4F3A39"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="183dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/top_radius_product"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123"
+        app:layout_constraintWidth_percent="1" />
+
+    <ImageView
+        android:id="@+id/favoriteIcon"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:src="@android:drawable/star_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="130dp"
+        android:layout_height="19dp"
+        android:text="€59.95"
+        android:textColor="#4F3A39"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
